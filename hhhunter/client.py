@@ -32,6 +32,7 @@ class Client:
     def first_page(self):
         return FirstPage(self.__driver)
 
+
     @property
     def login_page(self):
         return LoginPage(self.__driver)
